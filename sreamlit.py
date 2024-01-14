@@ -51,8 +51,8 @@ def preprocess(file_path):
 
 
 def predictions(file_path, model, model_name):
-    gtzan_label = ['metal', 'hiphop', 'classical', 'rock',
-                   'blues', 'reggae', 'country', 'pop', 'jazz', 'disco']
+    gtzan_label = ['classical', 'hiphop', 'disco', 'jazz', 'metal',
+                   'reggae', 'rock', 'country', 'blues', 'pop']
     ismir_label = ['classical', 'electronic', 'jazz',
                    'metal', 'pop', 'punk', 'rock', 'world']
     # Preprocess audio file
